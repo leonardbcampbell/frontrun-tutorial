@@ -5,3 +5,4 @@
 1. Setup AWS account and Launch your own EC2 instance (Recommended OS: Ubuntu)
 2. SSH into your EC2 instance in your terminal or VScode
 3. Clone [Mempool](https://github.com/leonardbcampbell/mempool).
+4. After cloning the repository run `npm install` or `yarn` to install all the packages we need to monitor the ethereum blockchain
