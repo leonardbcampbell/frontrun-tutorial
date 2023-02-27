@@ -10,3 +10,6 @@
 ### Now we have our mempool shark setup, we can now monitor pending transactions for frontrunning opportunities.
 by simply running `yarn start` or `npm run start`.
 
+6. Now let us setup and configure our frontrunning bot via the console Go to https://deltabots.net/console/deployments
+7. You can see that most of the inputs are disabled because those are the defaults. We only need to look for the bundle hash since we will be executing transactions using flashbots. Copy the Bundle Hash from [Here](https://docs.flashbots.net/flashbots-auction/searchers/advanced/troubleshooting) and paste it in.
+
