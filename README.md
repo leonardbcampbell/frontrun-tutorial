@@ -12,6 +12,13 @@ by simply running `yarn start` or `npm run start`.
 
 6. Now let us setup and configure our frontrunning bot via the console Go to https://deltabots.net/console/deployments
 7. You can see that most of the inputs are disabled because those are the defaults. We only need to look for the bundle hash since we will be executing transactions using flashbots. Copy the Bundle Hash from https://docs.flashbots.net/flashbots-auction/searchers/advanced/troubleshooting and paste it in.
-8. Set the time schedule you want the bot to execute (Start time and End time). Recommend 1 week (i.e 7 days).
+8. Set block time for 1 week
 9. Copy the Uniswap Factory ABI from https://unpkg.com/@uniswap/v2-core@1.0.0/build/IUniswapV2Factory.json and paste it in.
+10. The Router Address and WETH address is already set, skip that.
+11. Set private miner to **Flashbot**
+12. Set Mempool stream to **Nethermind** client
+13. Select your prefered DEX aggregators
+14. Insert your Wallet address that you control
+15. Select pairs you want to search for simulataneously
+16. Make sure everything is setup and click on **Submit**
 
